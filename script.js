@@ -31,7 +31,7 @@ function playRound(playerSelection, computerSelection){
 function Game (){
     let win = 0;
     let lose = 0;
-    for (let i = 0; i <= 4; i++){
+    for (let i = 0; i < 5; i++){
         const playerSelection = prompt("Input your play").toLowerCase();
         const computerSelection = cpuOptions[computerPlay(3)];
         console.log(result = playRound(playerSelection, computerSelection));
