@@ -12,7 +12,7 @@ function computerPlay(max){
     return Math.floor(Math.random() * max);
 }
 
-function playRound(playerSelection, computerSelection){
+function playRound(playerSelection){
 
     playerSelection = playerSelection.target.id;
     computerSelection = cpuOptions[computerPlay(3)];
